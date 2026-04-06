@@ -7,10 +7,10 @@ Team: Documentation
 <table border="0">
   <tr>
     <td width="50%" align="center">
-      <img src="images/sally_logo.svg" width="100%" alt="Sally Logo">
+      <img src="images/sally_logo.svg" width="50%" alt="Sally Logo">
     </td>
     <td width="50%" align="center">
-      <img src="images/RiceStackedHoriz_Blue.png" width="100%" alt="Rice Logo">
+      <img src="images/RiceStackedHoriz_Blue.png" width="50%" alt="Rice Logo">
     </td>
   </tr>
 </table>
