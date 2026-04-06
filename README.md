@@ -4,8 +4,6 @@ Status: In development
 Team: Documentation
 
 # Sally: Wearable Device
-
-```html
 <table border="0">
   <tr>
     <td width="50%" align="center">
@@ -16,7 +14,6 @@ Team: Documentation
     </td>
   </tr>
 </table>
-```
 
 ## 📝 Abstract
 
