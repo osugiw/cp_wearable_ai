@@ -4,3 +4,6 @@
 [submodule "wearable_closure"]
 	path = wearable_closure
 	url = https://github.com/osugiw/CP_ClosureDesign.git
+[submodule "sally_app"]
+	path = sally_app
+	url = https://github.com/osugiw/CP_mobile_apps.git
