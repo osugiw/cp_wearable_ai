@@ -1,9 +1,12 @@
 [submodule "wearable_repo"]
 	path = wearable_repo
 	url = https://github.com/osugiw/CP_MCU_Codes.git
+	branch = main
 [submodule "wearable_closure"]
 	path = wearable_closure
 	url = https://github.com/osugiw/CP_ClosureDesign.git
+	branch = main
 [submodule "sally_app"]
 	path = sally_app
 	url = https://github.com/osugiw/CP_mobile_apps.git
+	branch = main
