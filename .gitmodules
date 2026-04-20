@@ -10,3 +10,7 @@
 	path = sally_app
 	url = https://github.com/osugiw/CP_mobile_apps.git
 	branch = main
+[submodule "sally_server"]
+	path = sally_server
+	url = https://github.com/osugiw/CP_Server.git
+	branch = main
