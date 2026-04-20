@@ -17,13 +17,13 @@ Team: Documentation
 
 ## 📝 Abstract
 
-Information retention and physiological exhaustion are significant barriers to cognitive productivity. To address this, we introduce **Sally**, a specialized wearable assistant that bridges the gap between continuous audio capture and real-time biometric monitoring.
+Information retention and the cognitive load of tracking professional interactions represent significant barriers to productivity. This paper introduces a necklace-form wearable assistant designed to streamline task management through intelligent conversation capture and context analysis. Utilizing a privacy-centric edge-computing architecture, the device transmits audio to a localized Raspberry Pi server for secure processing.
+Advanced speech-to-text and small language models synthesize raw transcriptions into structured, context-aware summaries and personalized journals. A core contribution is the automated extraction of "action items" from natural dialogue, which the system uses to notify users and facilitate task execution via a mobile application. Technical evaluations demonstrate a 90\% transcription accuracy and optimized power management, achieving an 9.52-hour operational battery life. By automating the transition from verbal commitments to digital tasks, the system reduces the cognitive effort required for recall and interaction review, transforming ambient conversation into organized, actionable productivity insights.
 
 ### ⚙️ System Overview
 
 - **Edge Architecture:** Utilizing a low-power hardware design, the device records and buffers ambient conversations, offloading data to a local **Raspberry Pi server** for intensive processing.
 - **Intelligence:** Advanced **STT (Speech-to-Text)** and **NLP (Natural Language Processing)** algorithms synthesize transcriptions into concise, context-aware summaries and actionable items.
-- **Biometric Correlation:** By syncing conversation data with health metrics, Sally provides personalized recovery insights and helps mitigate cognitive load.
 
 ### 📊 Technical Benchmarks
 
@@ -34,9 +34,16 @@ Information retention and physiological exhaustion are significant barriers to c
 | **Battery Life** | 8 Hours (via interrupt-driven power management) |
 | **Sampling Rate** | 16kHz (Mono) |
 
-### 🎯 Objective
+### 📋 Project Structure
 
-Ultimately, Sally improves productivity and mitigates fatigue by providing critical, data-driven insights into a user’s **cognitive load** and **physiological state**.
+This repository contains several submodules that direct to another repository, which organized as follows:
+
+```
+wearable_closure --> **3D Printed design for the wearable device**
+wearable_repo    --> **Source code for embedded part and its requirements**
+sally_server     --> **Source code for set-up and running server**
+sally_app        --> **Source code for developing mobile application**
+```
 
 ## 👥 Project Team
 
